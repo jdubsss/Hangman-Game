@@ -26,7 +26,8 @@ var userInput = document.getElementById('userInput'),
         winCount = 0,
         lives = 5,
         lettersToGuess = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
-        randNumber;
+        randNumber,
+        currentWord;
 
 
 
@@ -37,6 +38,15 @@ var userInput = document.getElementById('userInput'),
  /*Lets user know how may lives they have left---------------*/       
         lives.innerHTML = 'You have ' + lives + ' lives remaining';
         output.innerHTML = '';
+
+
+        document.getElementById("letter").value = '';
+
+
+
+
+
+        /*content below is from the psychic game...used as staring point*/
             
 
 
